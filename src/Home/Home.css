@@ -1,13 +1,13 @@
 .food{
     font-size: 70px;
     color:  rgb(228, 71, 71);
-    margin-left: 30px;
+    margin-left: 150px;
     margin-top: 5%;
 }
 
 #image{
     margin-left: 1000px;
-    margin-top: -17%;
+    margin-top: -13%;
 }
 
 .delicacy{
@@ -24,12 +24,14 @@
     padding:  8px 16px;
     color: #fff;
     font-size: 30px;
+    margin-top: 2%;
 }
 
 .order{
     margin-left: 350px;
     margin-top: -2%;
     font-size: 30px;
+    color: black;
 }
 
 .fast{
@@ -51,7 +53,7 @@
 .deliver{
     background-color: rgb(234, 241, 241);
     height: 200px;
-    margin-top: -2%;
+    margin-top: 5%;
     margin-left: 160px;
     margin-right: 160px;
     border: 20px;
@@ -97,4 +99,31 @@
 #buy{
     margin-left: 200px;
     margin-top: 5%;
+}
+
+
+.our{
+    margin-top: 3%;
+    margin-left: 200px;
+    font-size: 70px;
+
+}
+
+
+.menu{
+    color: gray;
+    margin-left: 200px;
+    font-size: 30px;
+}
+
+.see-all{
+    padding: 10px 30px;
+    border: none;
+    background-color: rgb(228, 71, 71);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-left: 1500px;
+    margin-top: -30%;
 }

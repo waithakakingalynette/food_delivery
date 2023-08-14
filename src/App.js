@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './Food/navbar';
-import Home from './Food/Home';
-import Footer from './Food/Footer';
+import Navbar from './Navigation/navbar';
+import Home from './Home/Home';
+import Footer from './Footer/footer';
 
 function App() {
   return (
