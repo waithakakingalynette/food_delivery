@@ -66,19 +66,27 @@
 }
 
 #burger{
-    margin-left: 100px;
+    margin-left: 200px;
     margin-top: 8%;
+    color: black;
 
 }
 
 #pizza{
-    margin-left: 750px;
-    margin-top: -15%;
+    margin-left: 800px;
+    margin-top: -17%;
+    color: black;
 }
 
 #fry{
-    margin-left: 1350px;
-    margin-top: -16%;
+    margin-left: 1300px;
+    margin-top: -25%;
+    color: black;
+}
+
+#chick{
+    color: black;
+    margin-left: 100px;
 }
 
 .best{
@@ -126,4 +134,26 @@
     border-radius: 20px;
     margin-left: 1500px;
     margin-top: -30%;
+}
+
+#order{
+    color: rgb(228, 71, 71) ;
+    margin-left: 100px;
+
+}
+
+#orders{
+    margin-left: 150px;
+}
+
+#chicks{
+    color: black;
+    margin-left: 150px;
+
+}
+
+
+.icons{
+    color: rgb(228, 71, 71);
+    /* margin-top: -5%; */
 }

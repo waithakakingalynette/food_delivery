@@ -6,7 +6,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">Foodle</a>
+          {/* <a className="navbar-brand" href="#">Foodle</a> */}
           <button className="navbar-toggler" type="button">
             <span className="navbar-toggler-icon"></span>
           </button>

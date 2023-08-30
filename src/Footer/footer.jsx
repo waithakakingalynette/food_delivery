@@ -1,5 +1,6 @@
 import React from "react";
 import './footer.css'
+import Foot from'../../src/Images/footer.png'
 
 const Footer = () =>{
     return(
@@ -9,6 +10,7 @@ const Footer = () =>{
    <h3>Fooodish</h3>
     <p className="all">Continue Fooodish 2023 all rights reserved </p>
 <h3>Follow us On</h3>
+<img src={Foot} alt="" />
 <span></span>
 <span></span>
 <span></span>

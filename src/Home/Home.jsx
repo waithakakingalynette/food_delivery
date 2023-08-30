@@ -3,12 +3,15 @@ import './Home.css';
 import Sandwich from '../../src/Images/sandwich.png'
 import Burger from '../../src/Images/burger.png'
 import ChickenPizza from '../../src/Images/pizza.png'
-import ChickenFry from '../../src/Images/frenchfries.png'
+import ChickenFry from '../../src/Images/fries-clipart.png'
 import Buy from '../../src/Images/buy.png'
 import GrillSandwich from '../../src/Images/grill.png'
 import Tacos from '../../src/Images/tacos.png'
 import Ramen from '../../src/Images/ramen.png'
 import MenuItem from "../Menu";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
+
 
 
 const Home =()=>{
@@ -84,18 +87,15 @@ const Home =()=>{
 
             <h2 className="category">Here Are Some Of Our Best Distributed <br/> Categories.If You Want You Can Order <br/> From Here.</h2>
 
-            <div id="burger"><img src={Burger}/> <br/> <h3>Chicken Burger</h3>  <h4>Order Now</h4></div>
-            <div id="pizza"><img src={ChickenPizza}/> <br/> <h3>Chicken Pizza</h3>  <h4>Order Now</h4></div>
-            <div id="fry"><img src={ChickenFry}/> <br/> <h3>French Fries</h3>  <h4>Order Now</h4></div>
-
-
+            <div id="burger"><img src={Burger}/> <br/> <h3 id="chick">Chicken Burger</h3>  <h4 id="order">Order Now <FontAwesomeIcon className="icons" icon={faGreaterThan} /></h4> </div>
+            <div id="pizza"><img src={ChickenPizza}/> <br/> <h3 id="chick">Chicken Pizza</h3>  <h4 id="order">Order Now <FontAwesomeIcon className="icons" icon={faGreaterThan}/></h4> </div>
+            <div id="fry"><img src={ChickenFry}/> <br/> <h3 id="chicks">French Fries</h3>  <h4 id="orders">Order Now <FontAwesomeIcon className="icons" icon={faGreaterThan}/></h4></div>
 
             <h1 className="our"> Our <span style={{ color: "rgb(255, 30, 0" }}>Regular</span> Menu<div/></h1>   
       <div className="header">
         <p className="menu">These Are Our Regular Menus. You Can  <br/> Order Anything You Like.</p>   
               <button className="see-all">See All</button>
       </div>
-
 
       <div className="menu-item-container">
         {menuItems.map((menuItem, index) => (

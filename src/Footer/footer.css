@@ -5,6 +5,7 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     margin: 5%;
+    background-color: rgb(252, 224, 229);
   }
   ul li{
     list-style: none;
