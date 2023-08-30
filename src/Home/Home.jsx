@@ -94,7 +94,7 @@ const Home =()=>{
             <h1 className="our"> Our <span style={{ color: "rgb(255, 30, 0" }}>Regular</span> Menu<div/></h1>   
       <div className="header">
         <p className="menu">These Are Our Regular Menus. You Can  <br/> Order Anything You Like.</p>   
-              <button className="see-all">See All</button>
+              {/* <button className="see-all">See All</button> */}
       </div>
 
       <div className="menu-item-container">
